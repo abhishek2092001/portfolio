@@ -1,5 +1,6 @@
 import office from './image/office.jpg';
 import './App.css'
+import abhishek from './image/abhi_pic.jpg'
 import { Parallax } from 'react-parallax';
 import { useRef, useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -52,7 +53,7 @@ const home=useRef();
            <button className='but'onClick={()=>scrollhandler(project)}>Projects</button>
         </div>
         <div className="container2 cont3">
-          <img className="photo"></img>
+          <img src={abhishek} alt='no image is present' className="photo"></img>
         </div>
     </div>
     </div>
